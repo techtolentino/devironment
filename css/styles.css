@@ -1,5 +1,20 @@
 body {
-  background-color: #0F5175;
+  background-color: #D1DAD5;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  font-size: 16px;
+  box-sizing: border-box;
+  color: #0F5175; }
+  body main {
+    display: block;
+    margin: 0 auto; }
+    body main .splash {
+      background: url(../img/desk.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      overflow: hidden;
+      height: 100vh;
+      color: #D1DAD5;
+      text-align: center; }
