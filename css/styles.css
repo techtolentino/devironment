@@ -9,6 +9,11 @@ body {
   body main {
     display: block;
     margin: 0 auto; }
+    body main .section {
+      display: block;
+      margin: 0;
+      padding: 0;
+      height: 100vh; }
     body main .splash {
       background: url(../img/desk.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
@@ -20,7 +25,16 @@ body {
       color: #BCD349;
       text-align: center; }
       body main .splash h1 {
-        font-size: 5em;
+        font-size: 3em;
         position: relative;
         top: 35%;
         transform: translateY(-35%); }
+    body main .about {
+      text-align: center;
+      padding: 30px 20px; }
+      body main .about .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 700px; }
+        body main .about .container p {
+          font-size: 1.15em; }
