@@ -7,11 +7,11 @@ var gulp = require('gulp'),
 
 // Scripts task
 // Uglifies JS
-gulp.task('scripts', function(){
-	gulp.src('js/*.js')
-	.pipe(uglify())
-	.pipe(gulp.dest('build/js'));
-});
+// gulp.task('scripts', function(){
+// 	gulp.src('js/*.js')
+// 	.pipe(uglify())
+// 	.pipe(gulp.dest('build/js'));
+// });
 
 // Styles task
 // Uglifies Sass
@@ -40,9 +40,25 @@ gulp.task('webserver', function() {
 // Watch tasks
 // Watches Js and Sass
 gulp.task('watch', function(){
-	gulp.watch('js/*.js', ['scripts']);
 	gulp.watch('sass/*.scss', ['styles']);
+	// gulp.watch('js/*.js', ['scripts']);
 });
 
+// Include if Uglifying 'scripts'
+// gulp.task('default', ['scripts', 'styles', 'html', 'watch', 'webserver']);
 
-gulp.task('default', ['scripts', 'styles', 'html', 'watch', 'webserver']);
+// Otherwise
+gulp.task('default', ['styles', 'html', 'watch', 'webserver']);
+
+
+
+
+
+
+
+
+
+
+
+
+
