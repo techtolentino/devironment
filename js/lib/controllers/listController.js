@@ -1,4 +1,3 @@
-myApp.controller('ListController', 
-  function($scope) {
+myApp.controller('ListController', function($scope) {
 
 }); //ListController

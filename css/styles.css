@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Nobile:400,700);
 body {
-  background-color: #0F5175;
+  background-color: #D1DAD5;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -70,3 +70,13 @@ body {
           background-color: #0F5175; }
         body main .about .container .start:focus {
           outline: none; }
+    body main .list {
+      background-color: #EFC63F;
+      text-align: center;
+      color: #268FAF; }
+      body main .list .title {
+        position: relative;
+        top: 10%;
+        transform: translateY(-10%); }
+        body main .list .title h1 {
+          margin: 0; }
