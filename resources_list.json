@@ -1,94 +1,26 @@
 {
-  "resources" : {
-    "apps" : {
-      "name" : "red",
-      "category" : 1428003236737,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "webtools" : {
-      "name" : "yellow",
-      "category" : 1427486858578,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "darkred",
-      "category" : 1428224088206,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "orange",
-      "category" : 1428263071161,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "orange",
-      "category" : 1427742544781,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "yellow",
-      "category" : 1428263098054,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "grellow",
-      "category" : 1428221833941,
-      "link" : "link",
-      "class" : "testClass"
-      },
-    "resource" : {
-      "name" : "red",
-      "category" : 1428227100453,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "yellow",
-      "category" : 1428228872713,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "green",
-      "category" : 1427306456111,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "orange",
-      "category" : 1428228420696,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "red",
-      "category" : 1428002136718,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "orange",
-      "category" : 1427987188344,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "yellow",
-      "category" : 1428002187986,
-      "link" : "link",
-      "class" : "testClass"
-    },
-    "resource" : {
-      "name" : "green",
-      "category" : 1428202668527,
-      "link" : "link",
-      "class" : "testClass"
-    }
-  }
+  "apps" : {
+    "item_name" : "test name",
+    "item_link" : "link"
+  },
+  "web_tools" : {
+    "item_name" : "test name",
+    "item_link" : "link"
+  },
+  "packages" : {
+    "item_name" : "test name",
+    "item_link" : "link"
+  },
+  "terminal" : {
+    "item_name" : "test name",
+    "item_link" : "link"
+  },  
+  "visual" : {
+    "item_name" : "test name",
+    "item_link" : "link"
+  },
+  "tech_stack" : {
+    "item_name" : "test name",
+    "item_link" : "link"
+  }  
 }
