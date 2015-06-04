@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Nobile:400,700);
+
 $darkColor: #0F5175;
 $lightColor: #D1DAD5;
 $midColor: #268FAF;
@@ -9,7 +11,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Nobile', sans-serif;
 	box-sizing: border-box;
 	color: $darkColor;
 	.accent {
@@ -60,6 +62,7 @@ body {
 				p {
 					font-size: 1.15em;
 					color: $midColor;
+					letter-spacing: 2px;
 				}
 			}
 		}
