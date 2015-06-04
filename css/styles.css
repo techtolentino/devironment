@@ -52,24 +52,24 @@ body {
           font-size: 1.15em;
           color: #268FAF;
           letter-spacing: 2px; }
-        body main .about .container .start {
-          background-color: #268FAF;
-          border: none;
-          padding: 15px 0 15px 0;
-          color: #FFF;
-          font-size: 1.25em;
-          border-radius: 2px;
-          /* margin-top: 35px; */
-          display: block;
-          margin: 0 auto;
-          max-width: 200px;
-          text-decoration: none;
-          margin-top: 40px; }
-        body main .about .container .start:hover {
-          cursor: pointer;
-          background-color: #0F5175; }
-        body main .about .container .start:focus {
-          outline: none; }
+    body main .start {
+      background-color: #268FAF;
+      border: none;
+      padding: 15px 0 15px 0;
+      color: #FFF;
+      font-size: 1.25em;
+      border-radius: 2px;
+      /* margin-top: 35px; */
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      text-decoration: none;
+      margin-top: 40px; }
+    body main .start:hover {
+      cursor: pointer;
+      background-color: #0F5175; }
+    body main .start:focus {
+      outline: none; }
     body main .list {
       background-color: #EFC63F;
       text-align: center;
