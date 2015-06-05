@@ -1,6 +1,7 @@
 {
   "resources" : {
     "apps" : {
+      "category_name" : "apps",
       "item_1" : {
         "name" : "app 1 name",
         "link" : "http://www.test-1.com/app",
@@ -15,6 +16,7 @@
       }
     },
     "web_tools" : {
+      "category_name" : "Web Tools",
       "item_1" : {
         "name" : "web_tools 1 name",
         "link" : "http://www.test-1.com/web_tools",
@@ -29,6 +31,7 @@
       }    
     },
     "packages" : {
+      "category_name" : "Packages",
       "item_1" : {
         "name" : "packages 1 name",
         "link" : "http://www.test-1.com/packages",
@@ -43,6 +46,7 @@
       }    
     },
     "terminal" : {
+      "category_name" : "Terminal",
       "item_1" : {
         "name" : "terminal 1 name",
         "link" : "http://www.test-1.com/terminal",
@@ -57,6 +61,7 @@
       }    
     },  
     "visual" : {
+      "category_name" : "Visual/UI",
       "item_1" : {
         "name" : "visual 1 name",
         "link" : "http://www.test-1.com/visual",
@@ -71,6 +76,7 @@
       }    
     },
     "tech_stack" : {
+      "category_name" : "Tech Stack",
       "item_1" : {
         "name" : "tech_stack 1 name",
         "link" : "http://www.test-1.com/tech_stack",

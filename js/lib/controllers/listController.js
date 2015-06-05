@@ -1,7 +1,7 @@
 myApp.controller('ListController', function($scope, $firebaseObject) {
 
-  var ref = new Firebase('https://devironment.firebaseio.com');
+  var ref = new Firebase('https://devironment.firebaseio.com/resources');
 
-  $scope.data = $firebaseObject(ref);
+  $scope.resources = $firebaseObject(ref);
 
 }); //ListController
