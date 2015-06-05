@@ -80,3 +80,10 @@ body {
         transform: translateY(-10%); }
         body main .list .title h1 {
           margin: 0; }
+      body main .list ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; }
+        body main .list ul li {
+          font-size: 1.3em;
+          font-weight: bold; }
