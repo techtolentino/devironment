@@ -129,6 +129,12 @@ body {
 			  		font-weight: normal;
 			  		font-size: .8em;
 			  		margin-left: 10px;
+			  		margin-right: 10px;
+			  	}
+			  	p:hover {
+			  		font-weight: bolder;
+			  		cursor: pointer;
+			  		color: $darkColor;
 			  	}
 			  }
 			}

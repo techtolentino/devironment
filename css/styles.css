@@ -105,7 +105,12 @@ body {
           body main .list ul li p {
             font-weight: normal;
             font-size: .8em;
-            margin-left: 10px; }
+            margin-left: 10px;
+            margin-right: 10px; }
+          body main .list ul li p:hover {
+            font-weight: bolder;
+            cursor: pointer;
+            color: #0F5175; }
       body main .list .container {
         text-align: center;
         margin-bottom: 55px;
