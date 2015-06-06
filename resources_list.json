@@ -3,13 +3,31 @@
     "apps" : {
       "category_name" : "apps",
       "item_1" : {
-        "name" : "app 1 name",
+        "name" : "Sublime Text 3",
         "link" : "http://www.test-1.com/app",
         "checked" : true,
         "color" : "#CCC"
       },
       "item_2" : {
-        "name" : "app 2 name",
+        "name" : "Adobe Photoshop",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_3" : {
+        "name" : "Adobe Illustrator",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_4" : {
+        "name" : "iTerm",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_5" : {
+        "name" : "Slack",
         "link" : "http://test-2.com/app",
         "checked" : false,
         "color" : "#C0FFEE"

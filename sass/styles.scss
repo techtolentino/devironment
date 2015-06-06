@@ -108,7 +108,7 @@ body {
 			}
 			ul {
 			  list-style-type: none;
-			  margin: 15px;
+			  margin: 9px;
 			  padding: 10px;
 			  display: inline-block;
 			  text-align: left;
@@ -118,10 +118,14 @@ body {
 			  	font-weight: bold;
 			  	text-align: left;
 			  	color: $midColor;
+			  	p {
+			  		font-weight: normal;
+			  		font-size: .8em;
+			  	}
 			  }
 			}
 		.container {
-		  text-align: center;
+		  text-align: left;
 		  margin-bottom: 55px;
 		  display: block;
 		  margin: 0 auto;
