@@ -1,7 +1,5 @@
 var myApp = angular.module('myApp', ['ngRoute', 'firebase']);
 
-
-
 myApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider.
 	when('/', {
@@ -15,3 +13,10 @@ myApp.config(['$routeProvider', function($routeProvider){
 		redirectTo: '/'
 	});
 }]);
+
+myApp.run(function($rootScope) {
+	$rootScope.$on("$routeChangeSuccess", function (event, currentRoute, previousRoute) {
+		window.scrollTo(0, 0);
+	});
+});
+

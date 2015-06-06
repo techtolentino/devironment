@@ -1,7 +1,7 @@
 {
   "resources" : {
     "apps" : {
-      "category_name" : "apps",
+      "category_name" : "Apps",
       "item_1" : {
         "name" : "Sublime Text 3",
         "link" : "http://www.test-1.com/app",
@@ -31,82 +31,160 @@
         "link" : "http://test-2.com/app",
         "checked" : false,
         "color" : "#C0FFEE"
+      },
+      "item_6" : {
+        "name" : "Firefox",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
       }
     },
     "web_tools" : {
       "category_name" : "Web Tools",
       "item_1" : {
-        "name" : "web_tools 1 name",
+        "name" : "Compressor,io",
         "link" : "http://www.test-1.com/web_tools",
         "checked" : true,
         "color" : "#CCC"
       },
       "item_2" : {
-      "name" : "web_tools 2 name",
+      "name" : "dafont.com",
       "link" : "http://test-2.com/web_tools",
       "checked" : false,
       "color" : "#C0FFEE"
-      }    
+      },
+      "item_3" : {
+        "name" : "TM Theme Editor",
+        "link" : "http://test-2.com/web_tools",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_4" : {
+        "name" : "Chrome Bookmarks",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_5" : {
+        "name" : "Chrome Extensions",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_6" : {
+        "name" : "Firebug",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      }
     },
     "packages" : {
       "category_name" : "Packages",
       "item_1" : {
-        "name" : "packages 1 name",
+        "name" : "Beautify HTML",
         "link" : "http://www.test-1.com/packages",
         "checked" : true,
         "color" : "#CCC"
       },
       "item_2" : {
-        "name" : "packages 2 name",
+        "name" : "Bracket Highlighter",
         "link" : "http://test-2.com/packages",
         "checked" : false,
         "color" : "#C0FFEE"
-      }    
+      },
+      "item_3" : {
+        "name" : "Sass Highlighter",
+        "link" : "http://test-2.com/app",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      }
     },
     "terminal" : {
       "category_name" : "Terminal",
       "item_1" : {
-        "name" : "terminal 1 name",
+        "name" : "Ruby",
         "link" : "http://www.test-1.com/terminal",
         "checked" : true,
         "color" : "#CCC"
       },
       "item_2" : {
-        "name" : "terminal 2 name",
+        "name" : "Node.js",
         "link" : "http://test-2.com/terminal",
         "checked" : false,
         "color" : "#C0FFEE"
-      }    
+      },
+      "item_3" : {
+        "name" : "Git",
+        "link" : "http://test-2.com/terminal",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_2" : {
+        "name" : "Gulp",
+        "link" : "http://test-2.com/terminal",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_2" : {
+        "name" : "Sass",
+        "link" : "http://test-2.com/terminal",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_2" : {
+        "name" : "Ionic",
+        "link" : "http://test-2.com/terminal",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      }
     },  
     "visual" : {
       "category_name" : "Visual/UI",
       "item_1" : {
-        "name" : "visual 1 name",
+        "name" : "Dr. Slash",
         "link" : "http://www.test-1.com/visual",
         "checked" : true,
         "color" : "#CCC"
       },
       "item_2" : {
-        "name" : "visual 2 name",
+        "name" : "Adobe Kuler",
         "link" : "http://test-2.com/visual",
         "checked" : false,
         "color" : "#C0FFEE"
-      }    
+      }
     },
     "tech_stack" : {
       "category_name" : "Tech Stack",
       "item_1" : {
-        "name" : "tech_stack 1 name",
+        "name" : "Angular",
         "link" : "http://www.test-1.com/tech_stack",
         "checked" : true,
         "color" : "#CCC"
       },
       "item_2" : {
-        "name" : "tech_stack 2 name",
+        "name" : "Gulp",
         "link" : "http://test-2.com/tech_stack",
         "checked" : false,
         "color" : "#C0FFEE"
-      }    
+      },
+      "item_2" : {
+        "name" : "Firebase",
+        "link" : "http://test-2.com/visual",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_2" : {
+        "name" : "Angular Material",
+        "link" : "http://test-2.com/visual",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      },
+      "item_2" : {
+        "name" : "Angular Bootstrap",
+        "link" : "http://test-2.com/visual",
+        "checked" : false,
+        "color" : "#C0FFEE"
+      }
     }
   }
 }
