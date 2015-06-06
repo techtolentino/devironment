@@ -5,7 +5,13 @@
 		
 			<div class="resources">
 				<ul>
-					<li ng-repeat="category in resources">{{category.category_name}}</li>
+					<li ng-repeat="category in resources">
+						<div class="category">
+							<h2>{{category.category_name}}</h2>
+							<h5>{{category.item_1.name}}</h5>
+							<h5>{{category.item_2.name}}</h5>
+						</div>
+					</li>
 				</ul>
 			</div>
 
