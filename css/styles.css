@@ -59,7 +59,6 @@ body {
       color: #FFF;
       font-size: 1.25em;
       border-radius: 2px;
-      /* margin-top: 35px; */
       display: block;
       margin: 0 auto;
       max-width: 200px;
@@ -77,22 +76,23 @@ body {
       color: #268FAF;
       padding-bottom: 100px; }
       body main .list .title {
-        position: relative;
-        top: 10%;
-        transform: translateY(-10%);
-        margin-bottom: 70px;
-        padding-bottom: 30px; }
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background: #EFC63F; }
         body main .list .title h1 {
           margin: 0; }
+      body main .list hr {
+        margin: 0; }
       body main .list ul {
         list-style-type: none;
-        margin: 10px;
+        margin: 50px 10px 30px 10px;
         padding: 0;
         display: inline-block;
         vertical-align: top;
         text-align: left;
         color: #0F5175;
-        width: 250px; }
+        width: 200px;
+        height: 365px; }
         body main .list ul h3 {
           margin-top: 0;
           background-color: #EFC63F;
@@ -104,13 +104,15 @@ body {
           color: #268FAF; }
           body main .list ul li p {
             font-weight: normal;
-            font-size: .8em;
+            font-size: .7em;
             margin-left: 10px;
-            margin-right: 10px; }
+            margin-right: 10px;
+            padding: 10px 5px 10px 5px; }
           body main .list ul li p:hover {
             font-weight: bolder;
             cursor: pointer;
-            color: #0F5175; }
+            color: #0F5175;
+            padding: 10px 5px 10px 5px; }
       body main .list .container {
         text-align: center;
         margin-bottom: 55px;
