@@ -86,8 +86,8 @@ body {
           margin: 0; }
       body main .list ul {
         list-style-type: none;
-        margin: 9px;
-        padding: 10px;
+        margin: 10px;
+        padding: 0;
         display: inline-block;
         vertical-align: top;
         text-align: left;

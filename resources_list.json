@@ -2,50 +2,45 @@
   "resources" : {
     "apps" : {
       "category_name" : "Apps",
+      "color" : "#22A597",
       "item_1" : {
         "name" : "Sublime Text 3",
         "link" : "http://www.test-1.com/app",
-        "checked" : true,
-        "color" : "#CCC"
+        "checked" : true
       },
       "item_2" : {
         "name" : "Adobe Photoshop",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_3" : {
         "name" : "Adobe Illustrator",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_4" : {
         "name" : "iTerm",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_5" : {
         "name" : "Slack",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_6" : {
         "name" : "Firefox",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       }
     },
     "web_tools" : {
       "category_name" : "Web Tools",
+      "color" : "#F2C12E",
       "item_1" : {
         "name" : "Compressor,io",
         "link" : "http://www.test-1.com/web_tools",
-        "checked" : true,
-        "color" : "#CCC"
+        "checked" : true
       },
       "item_2" : {
       "name" : "dafont.com",
@@ -56,134 +51,118 @@
       "item_3" : {
         "name" : "TM Theme Editor",
         "link" : "http://test-2.com/web_tools",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_4" : {
         "name" : "Chrome Bookmarks",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_5" : {
         "name" : "Chrome Extensions",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_6" : {
         "name" : "Firebug",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       }
     },
     "packages" : {
       "category_name" : "Packages",
+      "color" : "#F29D35",
       "item_1" : {
         "name" : "Beautify HTML",
         "link" : "http://www.test-1.com/packages",
-        "checked" : true,
-        "color" : "#CCC"
+        "checked" : true
       },
       "item_2" : {
         "name" : "Bracket Highlighter",
         "link" : "http://test-2.com/packages",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_3" : {
         "name" : "Sass Highlighter",
         "link" : "http://test-2.com/app",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       }
     },
     "terminal" : {
       "category_name" : "Terminal",
+      "color" : "#F0764F",
       "item_1" : {
         "name" : "Ruby",
         "link" : "http://www.test-1.com/terminal",
-        "checked" : true,
-        "color" : "#CCC"
+        "checked" : true
       },
       "item_2" : {
         "name" : "Node.js",
         "link" : "http://test-2.com/terminal",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
       "item_3" : {
         "name" : "Git",
         "link" : "http://test-2.com/terminal",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
-      "item_2" : {
+      "item_4" : {
         "name" : "Gulp",
         "link" : "http://test-2.com/terminal",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
-      "item_2" : {
+      "item_5" : {
         "name" : "Sass",
         "link" : "http://test-2.com/terminal",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
-      "item_2" : {
+      "item_6" : {
         "name" : "Ionic",
         "link" : "http://test-2.com/terminal",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       }
     },  
     "visual" : {
       "category_name" : "Visual/UI",
+      "color" : "#F25252",
       "item_1" : {
         "name" : "Dr. Slash",
         "link" : "http://www.test-1.com/visual",
-        "checked" : true,
-        "color" : "#CCC"
+        "checked" : true
       },
       "item_2" : {
         "name" : "Adobe Kuler",
         "link" : "http://test-2.com/visual",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       }
     },
     "tech_stack" : {
       "category_name" : "Tech Stack",
+      "color" : "#45B4EF",
       "item_1" : {
         "name" : "Angular",
         "link" : "http://www.test-1.com/tech_stack",
-        "checked" : true,
-        "color" : "#CCC"
+        "checked" : true
       },
       "item_2" : {
         "name" : "Gulp",
         "link" : "http://test-2.com/tech_stack",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
-      "item_2" : {
+      "item_3" : {
         "name" : "Firebase",
         "link" : "http://test-2.com/visual",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
-      "item_2" : {
+      "item_4" : {
         "name" : "Angular Material",
         "link" : "http://test-2.com/visual",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       },
-      "item_2" : {
+      "item_5" : {
         "name" : "Angular Bootstrap",
         "link" : "http://test-2.com/visual",
-        "checked" : false,
-        "color" : "#C0FFEE"
+        "checked" : false
       }
     }
   }
