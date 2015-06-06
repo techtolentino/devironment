@@ -1,21 +1,17 @@
 <div class="list section">
 	<div class="title">
 		<h1><span class="accent">&lt;</span>devironment<span class="accent">/&gt;</span></h1>
-		<p>take it with you</p>
-		
-			<div class="resources">
-				<ul>
-					<li ng-repeat="category in resources">
-						<div class="category">
-							<h2>{{category.category_name}}</h2>
-							<h5>{{category.item_1.name}}</h5>
-							<h5>{{category.item_2.name}}</h5>
-						</div>
-					</li>
-				</ul>
-			</div>
-
-
-		<a class="start" ng-href="#/">Finished</a>
+		<p>take it with you</p>	
 	</div>
+	<hr>
+	<div class="container">
+		<ul ng-repeat="category in resources">
+			<h3>{{category.category_name}}</h3>
+			<li>
+				<p>{{category.item_1.name}}</p>
+				<p>{{category.item_2.name}}</p>
+			</li>
+		</ul>
+	</div>
+	<a class="start" ng-href="#/">Finished</a>
 </div>
