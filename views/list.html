@@ -5,8 +5,8 @@
 	</div>
 	<hr>
 	<!-- <div class="container"> -->
-		<ul ng-repeat="category in resources" style="border: 1px solid {{category.color}};">
-			<h3 style="background-color: {{category.color}};">{{category.category_name}}</h3>
+		<ul ng-repeat="(key,category) in resources" style="border: 1px solid {{category.color}};">
+			<h3 style="background-color: {{category.color}};">{{key}}</h3>
 			<li>
 				<p>{{category.item_1.name}}</p>
 				<p>{{category.item_2.name}}</p>
