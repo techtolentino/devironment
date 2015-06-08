@@ -10,7 +10,29 @@
 		<h1>What is this?</h1>
 		<p>As developers, we all have a set of specific, necessary tools and processes that we require, in order to do what we do. We all have our favorite editor,  tech-stacks, libraries, or frameworks.</p>
 		<p><em>Devironment</em> is a curated list of tools that I have found to be very useful when building out web products.</p>
-		<a class="start" ng-href="#/list">Get Started</a>
+		<a class="start" href="#list-section">Get Started</a>
 	</div>
 </div>
 
+<div class="list section" id="list-section">
+	<div class="title">
+		<h1><span class="accent">&lt;</span>devironment<span class="accent">/&gt;</span></h1>
+		<p>take it with you</p>	
+	</div>
+	<hr>
+	<!-- <div class="container"> -->
+		<ul ng-repeat="(key,category) in resources" style="border: 1px solid {{category.color}};">
+			<h3 style="background-color: {{category.color}};">{{key}}</h3>
+			<li>
+				<p>{{category.item_1.name}}</p>
+				<p>{{category.item_2.name}}</p>
+				<p>{{category.item_3.name}}</p>
+				<p>{{category.item_4.name}}</p>
+				<p>{{category.item_5.name}}</p>
+				<p>{{category.item_6.name}}</p>
+				<!-- <p>{{category.item_7.name}}</p> -->
+			</li>
+		</ul>
+	<!-- </div> -->
+	<a class="start" ng-href="#/">Finished</a>
+</div>

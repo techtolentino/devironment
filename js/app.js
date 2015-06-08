@@ -4,7 +4,8 @@ var myApp = angular.module('myApp', ['ngRoute', 'firebase']);
 myApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider.
 	when('/', {
-		templateUrl: 'views/home.html'
+		templateUrl: 'views/home.html',
+		controller: 'ListController'
 	}).
 	when('/list', {
 		templateUrl: 'views/list.html',
